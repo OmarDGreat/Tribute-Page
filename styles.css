@@ -42,9 +42,7 @@ h3 {
 }
 
 img {
-    max-width: 100%;
     display: block;
-    height: auto;
     margin: 0 auto;
 }
 
@@ -77,7 +75,7 @@ ul li {
 #image {
     width: 50%; /* adjust as needed */
     height: auto; /* maintain aspect ratio */
-    max-width: 40%; /* image will scale down if it needs to, but never scale up to be larger than its original size */
+    max-width: 100%; /* image will scale down if it needs to, but never scale up to be larger than its original size */
 }
 
 #headline {
