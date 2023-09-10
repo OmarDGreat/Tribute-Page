@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #c5b48e;
+    color: #080808;
+  }
+  
+nav {
+    background-color: #c5b48e;
+    color: #080808;
+    padding: 0;
+  }
+  
+figure {
+    background-color: #6b3513;
+    color: #DEDEDE;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  
+section {
+    background-color: #989b8a;
+    color: #080808;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+ul li {
+    font-size: 16px;
+    align-items: left;
+}
+
+#title {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+}
+
+#description{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#image {
+    width: 50%; /* adjust as needed */
+    height: auto; /* maintain aspect ratio */
+    max-width: 40%; /* image will scale down if it needs to, but never scale up to be larger than its original size */
+}
+
+#headline {
+    margin: 0 0 50px 0;
+    text-align: center;
+    font-size: 19px;
+}
+
+#img-div {
+    padding-bottom: 40px;
+}
+
+#img-caption {
+    margin: 0;
+    padding-left: 350px; /* Adjust the starting point with left padding */
+    padding-right: 350px; /* Adjust the ending point with right padding */
+    /* text-indent: 10px; Adjust the starting point with text indentation */
+    font-size: 20px;
+}
